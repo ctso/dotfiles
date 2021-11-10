@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -sf "$(pwd)/bash_alises" "${HOME}/.bash_aliases"
+ln -sf "$(pwd)/bash_aliases" "${HOME}/.bash_aliases"
