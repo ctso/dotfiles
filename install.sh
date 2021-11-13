@@ -7,4 +7,8 @@ if [ -n "$REMOTE_CONTAINERS" ]; then
 fi
 
 # Common
-ln -s "${SCRIPT_DIR}/gitconfig" "${HOME}/.gitconfig"
+ln -sf "${SCRIPT_DIR}/gitconfig" "${HOME}/.gitconfig"
+
+# ZSH
+ln -sf "${SCRIPT_DIR}/ohmyzsh" "${HOME}/.oh-my-zsh"
+ln -sf "${SCRIPT_DIR}/zshrc" "${HOME}/.zshrc"
