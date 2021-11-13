@@ -1,0 +1,14 @@
+[user]
+  name = Chris Soyars
+  email = ctsoyars@gmail.com
+
+[color]
+  ui = auto
+
+[rebase]
+  autosquash = true
+
+[alias]
+  co = checkout
+  br = branch
+  st = status
