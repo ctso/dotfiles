@@ -1,2 +1,6 @@
 #!/bin/bash
-ln -sf "$(pwd)/bash_aliases" "${HOME}/.bash_aliases"
+
+# VSCode Remote Containers
+if [ -n "$REMOTE_CONTAINERS" ]; then
+    ln -sf "$(pwd)"/bash_aliases "${HOME}/.bash_aliases"
+fi
